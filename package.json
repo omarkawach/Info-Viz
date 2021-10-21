@@ -1,0 +1,36 @@
+{
+  "name": "info-viz",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@nivo/core": "^0.74.0",
+    "@nivo/scatterplot": "^0.74.0",
+    "leaflet": "^1.7.1",
+    "nivo": "^0.31.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-leaflet": "^3.2.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/leaflet": "^1.7.5"
+  }
+}
