@@ -16,9 +16,9 @@ Since there is no geography in the second data set, we get that information
 from the third dataset.
 
 Next, we count the total number of little free libraries found in the 
-census subdivisions. 
+census subdivisions. Then, we also assign the LFLs to a census subdivision. 
 
-Finally, the GeoDataFrame is converted to GeoJSON for easy reading on the web.
+Finally, the GeoDataFrames are converted to GeoJSON for easy reading on the web
 """
 
 # Import packages
@@ -37,6 +37,7 @@ libraries_gdf = gdf(libraries_df,
 
 # Set a CRS for the LFL GeoDataFrame
 libraries_gdf = libraries_gdf.set_crs('epsg:4326')
+libraries_gdf["Census subdivision name"] = None
 
 """Census Data for Greater Victoria area"""
 # Load the census CSV specific to Victoria
@@ -67,12 +68,15 @@ census_updated_gdf['LFL_count'] = 0
 shapely.speedups.enable()
 
 # Count the number of LFLs in a census subdivision
-for lfl in libraries_gdf.geometry:
+for i, lfl in libraries_gdf.iterrows():
     # Now go through each census subdivision
     for index, row in census_updated_gdf.iterrows():
         # See if the census subdivision intersects with a LFL
-        if(lfl.within(row.geometry) == True):
+        if(lfl.geometry.within(row.geometry) == True):
             census_updated_gdf.loc[index, 'LFL_count'] += 1
+            libraries_gdf.at[i, "Census subdivision name"] = row["Census subdivision name"]
+            
 
 # Convert the geodataframe to GeoJSON
 census_updated_gdf.to_file("./CSDs_and_LFLs_for_CRD.geojson", driver='GeoJSON')
+libraries_gdf.to_file("./LFLs_assigned.geojson", driver='GeoJSON')

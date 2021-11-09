@@ -18,12 +18,14 @@ Project for CSC411 - Information Visualization at the University of Victoria
     Currently the 1 chart just pulls from x & y values, which are age & income
 2) Adjust transitions in motionConfig
 3) Info panel based on Chart.js onClick
-4) Load LFL locations into map on chart click
-5) Highligh chart clicked mark
-6) Update data JSON to have demographics then all GeoJSON markers for map
-7) Leaflet interactivity based on Chart.js onClick (Redux)
-8) Center map properly
-9) Styling
+4) Update data JSON to have demographics then all GeoJSON markers for map
+5) Leaflet interactivity, notify map of chart element selection using context and event listeners
+   - Load LFL locations into map on chart click
+   - Highlight polygon on chart click
+6) Center map properly
+7)  Styling
+8)  When I do ctrl + s in VS code, the React app re-renders 
+    - Confirm if issue still occurs after ```npm build```
 
 ## BONUS TODO
 1) Make swappable colour scheme for LFL#s and LFL/Sqkm

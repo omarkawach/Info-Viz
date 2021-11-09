@@ -1,8 +1,13 @@
+import React, { useContext } from "react";
 import { ResponsiveScatterPlot } from '@nivo/scatterplot';
 import data from "../data/data.json";
 
+import { ChartContext } from "../index.js";
+
 
 const Chart = () => {
+    let context = useContext(ChartContext);
+
     return (
         <div className="chart">
             <ResponsiveScatterPlot
@@ -25,7 +30,7 @@ const Chart = () => {
                     legendOffset: 46
                 }}
                 onClick={(data) => {
-                    console.log(`x: ${data["x"]}`);
+                    context.current.value = data["x"];
                 }}
                 axisLeft={{
                     orient: 'left',
