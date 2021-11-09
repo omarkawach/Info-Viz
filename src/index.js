@@ -1,53 +1,51 @@
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 
 import Title from "./components/Title.js";
 import Chart from "./components/Chart.js";
 import Map from "./components/Map.js";
 
-import LoadCSD from "./helpers/LoadCSD.js";
-import LoadLFL from "./helpers/LoadLFL.js";
-
 import "./index.css";
 
-// Initialized to pass data through the component tree effortlessly
-export const ChartContext = React.createContext();
+class App extends React.Component {
+  constructor(props) {
+    super(props);
 
-function App() {
-  // useRef is used since we do not want to render each time the selected chart element is changed
-  let chartElementSelected = useRef();
+    this.state = {
+      value: 1,
+      map: null
+    };
 
-  const [censusSubDivisions, setCensusSubDivisions] = useState([]);
-  const [littleLibraries, setLittleLibraries] = useState([]);;
+    this.onChartElementClick = this.onChartElementClick.bind(this);
 
-  const loadData = () => {
-    const loadCSD = new LoadCSD();
-    loadCSD.load(setCensusSubDivisions);
-
-    const loadLFL = new LoadLFL();
-    loadLFL.load(setLittleLibraries);
+    this.onMapCreate = this.onMapCreate.bind(this);
   }
 
-  // Fetch / set data after rendering
-  useEffect(() => {
-    loadData();     
-    chartElementSelected.current = {
-      value: null
-    };
-  }, []);
+  onChartElementClick(val) {
+    this.setState({
+      value: val,
+      map: this.state.map
+    });
+  }
 
-  return (
-    <div className="app">
-      <Title />
-      <div className="sideBySide"> 
-        {/* Pass value to all the children */}
-        <ChartContext.Provider value = { chartElementSelected } >
-          <Chart />
-          <Map censusSubDivisions = { censusSubDivisions } littleLibraries = { littleLibraries } />
-        </ChartContext.Provider>
+  onMapCreate(map) {
+    this.setState({
+      value: this.state.value,
+      map: map
+    });
+  }
+
+  render() {
+    return (
+      <div className="app">
+        <Title />
+        <div className="sideBySide">
+          <Chart onChartElementClick={this.onChartElementClick} />
+          <Map state={this.state} onMapCreate={this.onMapCreate}/>
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 ReactDOM.render(
