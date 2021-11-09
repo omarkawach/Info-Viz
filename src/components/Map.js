@@ -3,6 +3,7 @@ import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
 import Legend from "./Legend.js";
 
 import { features } from "../data/CSDs_LFLs.json";
+// import { features } from "../data/LFLs_assigned.json";
 
 export default class Map extends React.Component {
   defaultStyle = (feature) => {
