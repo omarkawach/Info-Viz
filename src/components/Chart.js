@@ -83,7 +83,7 @@ export default class Chart extends React.Component {
                     legendOffset: 46
                 }}
                 onClick={(data) => {
-                    console.log(`: ${data["x"]}`);
+                    this.props.onChartElementClick(2);
                 }}
                 axisLeft={{
                     orient: 'left',
