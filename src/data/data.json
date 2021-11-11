@@ -1,1027 +1,422 @@
 [
     {
-      "id": "group A",
+      "id": "Victoria",
       "data": [
         {
-          "x": 51,
-          "y": 36
-        },
-        {
-          "x": 61,
-          "y": 15
-        },
-        {
-          "x": 90,
-          "y": 8
-        },
-        {
-          "x": 18,
-          "y": 6
-        },
-        {
-          "x": 3,
-          "y": 55
-        },
-        {
-          "x": 29,
-          "y": 41
-        },
-        {
-          "x": 86,
-          "y": 13
-        },
-        {
-          "x": 43,
-          "y": 5
-        },
-        {
-          "x": 22,
-          "y": 3
-        },
-        {
-          "x": 27,
-          "y": 111
-        },
-        {
-          "x": 51,
-          "y": 40
-        },
-        {
-          "x": 84,
-          "y": 120
-        },
-        {
-          "x": 48,
-          "y": 110
-        },
-        {
-          "x": 2,
-          "y": 117
-        },
-        {
-          "x": 12,
-          "y": 98
-        },
-        {
-          "x": 86,
-          "y": 101
-        },
-        {
-          "x": 50,
-          "y": 46
-        },
-        {
-          "x": 25,
-          "y": 56
-        },
-        {
-          "x": 50,
-          "y": 23
-        },
-        {
-          "x": 90,
-          "y": 83
-        },
-        {
-          "x": 86,
-          "y": 24
-        },
-        {
-          "x": 52,
-          "y": 120
-        },
-        {
-          "x": 55,
-          "y": 105
-        },
-        {
-          "x": 40,
-          "y": 110
-        },
-        {
-          "x": 39,
-          "y": 68
-        },
-        {
-          "x": 83,
-          "y": 61
-        },
-        {
-          "x": 38,
-          "y": 9
-        },
-        {
-          "x": 5,
-          "y": 44
-        },
-        {
-          "x": 38,
-          "y": 47
-        },
-        {
-          "x": 85,
-          "y": 71
-        },
-        {
-          "x": 92,
-          "y": 19
-        },
-        {
-          "x": 25,
-          "y": 77
-        },
-        {
-          "x": 78,
-          "y": 4
-        },
-        {
-          "x": 32,
-          "y": 73
-        },
-        {
-          "x": 60,
-          "y": 37
-        },
-        {
-          "x": 79,
-          "y": 45
-        },
-        {
-          "x": 60,
-          "y": 63
-        },
-        {
-          "x": 27,
-          "y": 74
-        },
-        {
-          "x": 99,
-          "y": 52
-        },
-        {
-          "x": 96,
-          "y": 104
-        },
-        {
-          "x": 64,
-          "y": 30
-        },
-        {
-          "x": 70,
-          "y": 78
-        },
-        {
-          "x": 95,
-          "y": 79
-        },
-        {
-          "x": 56,
-          "y": 43
-        },
-        {
-          "x": 16,
-          "y": 98
-        },
-        {
-          "x": 44,
-          "y": 66
-        },
-        {
-          "x": 58,
-          "y": 92
-        },
-        {
-          "x": 78,
-          "y": 97
-        },
-        {
-          "x": 42,
-          "y": 98
-        },
-        {
-          "x": 46,
-          "y": 51
-        }
-      ]
-    },
+           "x": 43,
+           "y": 53126,
+           "Census ID": 5917034,
+           "Census subdivision name": "Victoria",
+           "LFLs": 194,
+           "LFLs per Sq Km": 9.152,
+           "LFLs per Pop Density": 0.044,
+           "Pop Total 2016": 85792,
+           "Pop Density per Sq Km": 4405,
+           "Land Area (Sq Km)": 19,
+           "Household Income Median": "$53,126",
+           "Primary: English": 75830,
+           "Primary: French": 430,
+           "Primary: Non Official Languages": 4420,
+           "% Primarily Non-official": "5.15%",
+           "Median Age": 43,
+           "Semi Detached House": 1140,
+           "Single Detached House": 6545,
+           "Total houses": 7685,
+           "Aboriginal Identity": 3780,
+           "Visible Minority % Total": 30.25
+		}
+	  ]
+	},
     {
-      "id": "group B",
+      "id": "Saanich",
       "data": [
         {
-          "x": 7,
-          "y": 33
-        },
-        {
-          "x": 24,
-          "y": 112
-        },
-        {
-          "x": 16,
-          "y": 90
-        },
-        {
-          "x": 82,
-          "y": 52
-        },
-        {
-          "x": 82,
-          "y": 32
-        },
-        {
-          "x": 89,
-          "y": 24
-        },
-        {
-          "x": 70,
-          "y": 84
-        },
-        {
-          "x": 83,
-          "y": 79
-        },
-        {
-          "x": 38,
-          "y": 84
-        },
-        {
-          "x": 18,
-          "y": 110
-        },
-        {
-          "x": 63,
-          "y": 68
-        },
-        {
-          "x": 99,
-          "y": 103
-        },
-        {
-          "x": 27,
-          "y": 7
-        },
-        {
-          "x": 52,
-          "y": 51
-        },
-        {
-          "x": 60,
-          "y": 77
-        },
-        {
-          "x": 3,
-          "y": 0
-        },
-        {
-          "x": 21,
-          "y": 95
-        },
-        {
-          "x": 6,
-          "y": 96
-        },
-        {
-          "x": 33,
-          "y": 70
-        },
-        {
-          "x": 52,
-          "y": 16
-        },
-        {
-          "x": 8,
-          "y": 63
-        },
-        {
-          "x": 65,
-          "y": 62
-        },
-        {
-          "x": 34,
-          "y": 57
-        },
-        {
-          "x": 76,
-          "y": 101
-        },
-        {
-          "x": 3,
-          "y": 67
-        },
-        {
-          "x": 78,
-          "y": 53
-        },
-        {
-          "x": 78,
-          "y": 87
-        },
-        {
-          "x": 1,
-          "y": 87
-        },
-        {
-          "x": 8,
-          "y": 50
-        },
-        {
-          "x": 53,
-          "y": 2
-        },
-        {
-          "x": 13,
-          "y": 114
-        },
-        {
-          "x": 15,
-          "y": 69
-        },
-        {
-          "x": 73,
-          "y": 23
-        },
-        {
-          "x": 36,
-          "y": 84
-        },
-        {
-          "x": 70,
-          "y": 52
-        },
-        {
-          "x": 82,
-          "y": 77
-        },
-        {
-          "x": 5,
-          "y": 98
-        },
-        {
-          "x": 53,
-          "y": 106
-        },
-        {
-          "x": 63,
-          "y": 82
-        },
-        {
-          "x": 29,
-          "y": 96
-        },
-        {
-          "x": 7,
-          "y": 7
-        },
-        {
-          "x": 16,
-          "y": 45
-        },
-        {
-          "x": 77,
-          "y": 91
-        },
-        {
-          "x": 61,
-          "y": 64
-        },
-        {
-          "x": 24,
-          "y": 21
-        },
-        {
-          "x": 53,
-          "y": 19
-        },
-        {
-          "x": 61,
-          "y": 105
-        },
-        {
-          "x": 80,
-          "y": 105
-        },
-        {
-          "x": 38,
-          "y": 29
-        },
-        {
-          "x": 74,
-          "y": 112
-        }
-      ]
-    },
+           "x": 44,
+           "y": 77282,
+           "Census ID": 5917021,
+           "Census subdivision name": "Saanich",
+           "LFLs": 155,
+           "LFLs per Sq Km": 1.39,
+           "LFLs per Pop Density": 0.141,
+           "Pop Total 2016": 114148,
+           "Pop Density per Sq Km": 1099,
+           "Land Area (Sq Km)": 103,
+           "Household Income Median": "$77,282",
+           "Primary: English": 97675,
+           "Primary: French": 390,
+           "Primary: Non Official Languages": 10610,
+           "% Primarily Non-official": "9.29%",
+           "Median Age": 44,
+           "Semi Detached House": 1185,
+           "Single Detached House": 22145,
+           "Total houses": 23330,
+           "Aboriginal Identity": 3490,
+           "Visible Minority % Total": 44.22
+		}
+	  ]
+	},
     {
-      "id": "group C",
+      "id": "Oak Bay",
       "data": [
         {
-          "x": 1,
-          "y": 96
-        },
-        {
-          "x": 56,
-          "y": 99
-        },
-        {
-          "x": 66,
-          "y": 30
-        },
-        {
-          "x": 43,
-          "y": 59
-        },
-        {
-          "x": 76,
-          "y": 112
-        },
-        {
-          "x": 44,
-          "y": 67
-        },
-        {
-          "x": 41,
-          "y": 21
-        },
-        {
-          "x": 47,
-          "y": 8
-        },
-        {
-          "x": 89,
-          "y": 83
-        },
-        {
-          "x": 4,
-          "y": 73
-        },
-        {
-          "x": 24,
-          "y": 0
-        },
-        {
-          "x": 48,
-          "y": 90
-        },
-        {
-          "x": 55,
-          "y": 64
-        },
-        {
-          "x": 35,
-          "y": 61
-        },
-        {
-          "x": 99,
-          "y": 114
-        },
-        {
-          "x": 49,
-          "y": 80
-        },
-        {
-          "x": 13,
-          "y": 90
-        },
-        {
-          "x": 40,
-          "y": 58
-        },
-        {
-          "x": 20,
-          "y": 16
-        },
-        {
-          "x": 19,
-          "y": 17
-        },
-        {
-          "x": 31,
-          "y": 114
-        },
-        {
-          "x": 11,
-          "y": 75
-        },
-        {
-          "x": 5,
-          "y": 63
-        },
-        {
-          "x": 48,
-          "y": 44
-        },
-        {
-          "x": 73,
-          "y": 110
-        },
-        {
-          "x": 8,
-          "y": 77
-        },
-        {
-          "x": 85,
-          "y": 55
-        },
-        {
-          "x": 14,
-          "y": 73
-        },
-        {
-          "x": 22,
-          "y": 76
-        },
-        {
-          "x": 32,
-          "y": 19
-        },
-        {
-          "x": 92,
-          "y": 67
-        },
-        {
-          "x": 40,
-          "y": 11
-        },
-        {
-          "x": 60,
-          "y": 33
-        },
-        {
-          "x": 76,
-          "y": 33
-        },
-        {
-          "x": 43,
-          "y": 51
-        },
-        {
-          "x": 84,
-          "y": 89
-        },
-        {
-          "x": 67,
-          "y": 69
-        },
-        {
-          "x": 86,
-          "y": 29
-        },
-        {
-          "x": 79,
-          "y": 111
-        },
-        {
-          "x": 8,
-          "y": 103
-        },
-        {
-          "x": 38,
-          "y": 46
-        },
-        {
-          "x": 79,
-          "y": 52
-        },
-        {
-          "x": 41,
-          "y": 104
-        },
-        {
-          "x": 29,
-          "y": 2
-        },
-        {
-          "x": 99,
-          "y": 25
-        },
-        {
-          "x": 54,
-          "y": 47
-        },
-        {
-          "x": 94,
-          "y": 92
-        },
-        {
-          "x": 91,
-          "y": 57
-        },
-        {
-          "x": 5,
-          "y": 114
-        },
-        {
-          "x": 40,
-          "y": 62
-        }
-      ]
-    },
+           "x": 53,
+           "y": 93529,
+           "Census ID": 5917030,
+           "Census subdivision name": "Oak Bay",
+           "LFLs": 51,
+           "LFLs per Sq Km": 3.387,
+           "LFLs per Pop Density": 0.03,
+           "Pop Total 2016": 18094,
+           "Pop Density per Sq Km": 1717,
+           "Land Area (Sq Km)": 10,
+           "Household Income Median": "$93,529",
+           "Primary: English": 16695,
+           "Primary: French": 80,
+           "Primary: Non Official Languages": 675,
+           "% Primarily Non-official": "3.73%",
+           "Median Age": 53,
+           "Semi Detached House": 105,
+           "Single Detached House": 4900,
+           "Total houses": 5005,
+           "Aboriginal Identity": 255,
+           "Visible Minority % Total": 21.24
+		}
+	  ]
+	},
     {
-      "id": "group D",
+      "id": "Esquimalt",
       "data": [
         {
-          "x": 2,
-          "y": 49
-        },
-        {
-          "x": 13,
-          "y": 101
-        },
-        {
-          "x": 0,
-          "y": 90
-        },
-        {
-          "x": 97,
-          "y": 41
-        },
-        {
-          "x": 24,
-          "y": 109
-        },
-        {
-          "x": 35,
-          "y": 19
-        },
-        {
-          "x": 21,
-          "y": 78
-        },
-        {
-          "x": 2,
-          "y": 14
-        },
-        {
-          "x": 83,
-          "y": 102
-        },
-        {
-          "x": 85,
-          "y": 90
-        },
-        {
-          "x": 13,
-          "y": 8
-        },
-        {
-          "x": 95,
-          "y": 8
-        },
-        {
-          "x": 97,
-          "y": 1
-        },
-        {
-          "x": 32,
-          "y": 7
-        },
-        {
-          "x": 58,
-          "y": 12
-        },
-        {
-          "x": 83,
-          "y": 19
-        },
-        {
-          "x": 98,
-          "y": 23
-        },
-        {
-          "x": 19,
-          "y": 55
-        },
-        {
-          "x": 19,
-          "y": 40
-        },
-        {
-          "x": 76,
-          "y": 17
-        },
-        {
-          "x": 72,
-          "y": 71
-        },
-        {
-          "x": 61,
-          "y": 94
-        },
-        {
-          "x": 59,
-          "y": 7
-        },
-        {
-          "x": 75,
-          "y": 27
-        },
-        {
-          "x": 53,
-          "y": 49
-        },
-        {
-          "x": 37,
-          "y": 98
-        },
-        {
-          "x": 6,
-          "y": 41
-        },
-        {
-          "x": 78,
-          "y": 59
-        },
-        {
-          "x": 52,
-          "y": 113
-        },
-        {
-          "x": 79,
-          "y": 34
-        },
-        {
-          "x": 2,
-          "y": 110
-        },
-        {
-          "x": 94,
-          "y": 48
-        },
-        {
-          "x": 74,
-          "y": 52
-        },
-        {
-          "x": 38,
-          "y": 92
-        },
-        {
-          "x": 28,
-          "y": 113
-        },
-        {
-          "x": 53,
-          "y": 37
-        },
-        {
-          "x": 14,
-          "y": 44
-        },
-        {
-          "x": 30,
-          "y": 115
-        },
-        {
-          "x": 50,
-          "y": 65
-        },
-        {
-          "x": 99,
-          "y": 18
-        },
-        {
-          "x": 17,
-          "y": 115
-        },
-        {
-          "x": 8,
-          "y": 98
-        },
-        {
-          "x": 76,
-          "y": 49
-        },
-        {
-          "x": 89,
-          "y": 113
-        },
-        {
-          "x": 23,
-          "y": 61
-        },
-        {
-          "x": 11,
-          "y": 74
-        },
-        {
-          "x": 24,
-          "y": 4
-        },
-        {
-          "x": 97,
-          "y": 70
-        },
-        {
-          "x": 27,
-          "y": 93
-        },
-        {
-          "x": 16,
-          "y": 23
-        }
-      ]
-    },
+           "x": 43,
+           "y": 60424,
+           "Census ID": 5917040,
+           "Census subdivision name": "Esquimalt",
+           "LFLs": 29,
+           "LFLs per Sq Km": 2.632,
+           "LFLs per Pop Density": 0.012,
+           "Pop Total 2016": 17655,
+           "Pop Density per Sq Km": 2494,
+           "Land Area (Sq Km)": 7,
+           "Household Income Median": "$60,424",
+           "Primary: English": 16125,
+           "Primary: French": 325,
+           "Primary: Non Official Languages": 585,
+           "% Primarily Non-official": "3.31%",
+           "Median Age": 43,
+           "Semi Detached House": 690,
+           "Single Detached House": 1995,
+           "Total houses": 2685,
+           "Aboriginal Identity": 1190,
+           "Visible Minority % Total": 20.33
+		}
+	  ]
+	},
     {
-      "id": "group E",
+      "id": "North Saanich",
       "data": [
         {
-          "x": 36,
-          "y": 111
-        },
+           "x": 56,
+           "y": 103296,
+           "Census ID": 5917005,
+           "Census subdivision name": "North Saanich",
+           "LFLs": 23,
+           "LFLs per Sq Km": 0.485,
+           "LFLs per Pop Density": 0.076,
+           "Pop Total 2016": 11249,
+           "Pop Density per Sq Km": 301,
+           "Land Area (Sq Km)": 37,
+           "Household Income Median": "$103,296",
+           "Primary: English": 10865,
+           "Primary: French": 25,
+           "Primary: Non Official Languages": 230,
+           "% Primarily Non-official": "2.04%",
+           "Median Age": 56,
+           "Semi Detached House": 90,
+           "Single Detached House": 3745,
+           "Total houses": 3835,
+           "Aboriginal Identity": 190,
+           "Visible Minority % Total": 10.77
+		}
+	  ]
+	},
+    {
+      "id": "Langford",
+      "data": [
         {
-          "x": 52,
-          "y": 61
-        },
+           "x": 38,
+           "y": 80331,
+           "Census ID": 5917044,
+           "Census subdivision name": "Langford",
+           "LFLs": 21,
+           "LFLs per Sq Km": 0.504,
+           "LFLs per Pop Density": 0.024,
+           "Pop Total 2016": 35342,
+           "Pop Density per Sq Km": 885,
+           "Land Area (Sq Km)": 39,
+           "Household Income Median": "$80,331",
+           "Primary: English": 33020,
+           "Primary: French": 180,
+           "Primary: Non Official Languages": 1160,
+           "% Primarily Non-official": "3.28%",
+           "Median Age": 38,
+           "Semi Detached House": 740,
+           "Single Detached House": 5655,
+           "Total houses": 6395,
+           "Aboriginal Identity": 2090,
+           "Visible Minority % Total": 20.6
+		}
+	  ]
+	},
+    {
+      "id": "Central Saanich",
+      "data": [
         {
-          "x": 79,
-          "y": 24
-        },
+           "x": 50,
+           "y": 86622,
+           "Census ID": 5917015,
+           "Census subdivision name": "Central Saanich",
+           "LFLs": 20,
+           "LFLs per Sq Km": 0.415,
+           "LFLs per Pop Density": 0.049,
+           "Pop Total 2016": 16814,
+           "Pop Density per Sq Km": 406,
+           "Land Area (Sq Km)": 41,
+           "Household Income Median": "$86,622",
+           "Primary: English": 15800,
+           "Primary: French": 25,
+           "Primary: Non Official Languages": 380,
+           "% Primarily Non-official": "2.26%",
+           "Median Age": 50,
+           "Semi Detached House": 175,
+           "Single Detached House": 3750,
+           "Total houses": 3925,
+           "Aboriginal Identity": 660,
+           "Visible Minority % Total": 12.85
+		}
+	  ]
+	},
+    {
+      "id": "Colwood",
+      "data": [
         {
-          "x": 33,
-          "y": 15
-        },
+           "x": 41,
+           "y": 85668,
+           "Census ID": 5917041,
+           "Census subdivision name": "Colwood",
+           "LFLs": 17,
+           "LFLs per Sq Km": 0.801,
+           "LFLs per Pop Density": 0.018,
+           "Pop Total 2016": 16859,
+           "Pop Density per Sq Km": 954,
+           "Land Area (Sq Km)": 17,
+           "Household Income Median": "$85,668",
+           "Primary: English": 16135,
+           "Primary: French": 125,
+           "Primary: Non Official Languages": 325,
+           "% Primarily Non-official": "1.93%",
+           "Median Age": 41,
+           "Semi Detached House": 740,
+           "Single Detached House": 3360,
+           "Total houses": 4100,
+           "Aboriginal Identity": 840,
+           "Visible Minority % Total": 14.94
+		}
+	  ]
+	},
+    {
+      "id": "View Royal",
+      "data": [
         {
-          "x": 30,
-          "y": 93
-        },
+           "x": 44,
+           "y": 83994,
+           "Census ID": 5917047,
+           "Census subdivision name": "View Royal",
+           "LFLs": 15,
+           "LFLs per Sq Km": 0.894,
+           "LFLs per Pop Density": 0.021,
+           "Pop Total 2016": 10408,
+           "Pop Density per Sq Km": 724,
+           "Land Area (Sq Km)": 14,
+           "Household Income Median": "$83,994",
+           "Primary: English": 9520,
+           "Primary: French": 70,
+           "Primary: Non Official Languages": 515,
+           "% Primarily Non-official": "4.95%",
+           "Median Age": 44,
+           "Semi Detached House": 170,
+           "Single Detached House": 1655,
+           "Total houses": 1825,
+           "Aboriginal Identity": 435,
+           "Visible Minority % Total": 28.82
+		}
+	  ]
+	},
+    {
+      "id": "Sooke",
+      "data": [
         {
-          "x": 23,
-          "y": 51
-        },
+           "x": 43,
+           "y": 71296,
+           "Census ID": 5917052,
+           "Census subdivision name": "Sooke",
+           "LFLs": 14,
+           "LFLs per Sq Km": 0.21,
+           "LFLs per Pop Density": 0.061,
+           "Pop Total 2016": 13001,
+           "Pop Density per Sq Km": 229,
+           "Land Area (Sq Km)": 56,
+           "Household Income Median": "$71,296",
+           "Primary: English": 12620,
+           "Primary: French": 85,
+           "Primary: Non Official Languages": 160,
+           "% Primarily Non-official": "1.23%",
+           "Median Age": 43,
+           "Semi Detached House": 375,
+           "Single Detached House": 3440,
+           "Total houses": 3815,
+           "Aboriginal Identity": 865,
+           "Visible Minority % Total": 7.19
+		}
+	  ]
+	},
+    {
+      "id": "Metchosin",
+      "data": [
         {
-          "x": 68,
-          "y": 9
-        },
+           "x": 51,
+           "y": 87625,
+           "Census ID": 5917042,
+           "Census subdivision name": "Metchosin",
+           "LFLs": 7,
+           "LFLs per Sq Km": 0.087,
+           "LFLs per Pop Density": 0.106,
+           "Pop Total 2016": 4708,
+           "Pop Density per Sq Km": 66,
+           "Land Area (Sq Km)": 71,
+           "Household Income Median": "$87,625",
+           "Primary: English": 4430,
+           "Primary: French": 20,
+           "Primary: Non Official Languages": 35,
+           "% Primarily Non-official": "0.74%",
+           "Median Age": 51,
+           "Semi Detached House": 65,
+           "Single Detached House": 1420,
+           "Total houses": 1485,
+           "Aboriginal Identity": 135,
+           "Visible Minority % Total": 6.22
+		}
+	  ]
+	},
+    {
+      "id": "Sidney",
+      "data": [
         {
-          "x": 61,
-          "y": 14
-        },
+           "x": 59,
+           "y": 63840,
+           "Census ID": 5917010,
+           "Census subdivision name": "Sidney",
+           "LFLs": 5,
+           "LFLs per Sq Km": 0.685,
+           "LFLs per Pop Density": 0.002,
+           "Pop Total 2016": 11672,
+           "Pop Density per Sq Km": 2290,
+           "Land Area (Sq Km)": 5,
+           "Household Income Median": "$63,840",
+           "Primary: English": 10915,
+           "Primary: French": 35,
+           "Primary: Non Official Languages": 305,
+           "% Primarily Non-official": "2.61%",
+           "Median Age": 59,
+           "Semi Detached House": 465,
+           "Single Detached House": 1995,
+           "Total houses": 2460,
+           "Aboriginal Identity": 360,
+           "Visible Minority % Total": 12.45
+		}
+	  ]
+	},
+    {
+      "id": "Highlands",
+      "data": [
         {
-          "x": 47,
-          "y": 1
-        },
+           "x": 45,
+           "y": 103509,
+           "Census ID": 5917049,
+           "Census subdivision name": "Highlands",
+           "LFLs": 4,
+           "LFLs per Sq Km": 0.097,
+           "LFLs per Pop Density": 0.069,
+           "Pop Total 2016": 2225,
+           "Pop Density per Sq Km": 58,
+           "Land Area (Sq Km)": 38,
+           "Household Income Median": "$103,509",
+           "Primary: English": 2175,
+           "Primary: French": 5,
+           "Primary: Non Official Languages": 30,
+           "% Primarily Non-official": "1.35%",
+           "Median Age": 45,
+           "Semi Detached House": 5,
+           "Single Detached House": 790,
+           "Total houses": 795,
+           "Aboriginal Identity": 50,
+           "Visible Minority % Total": 6.7
+		}
+	  ]
+	},
+    {
+      "id": "Juan de Fuca (Part 1)",
+      "data": [
         {
-          "x": 40,
-          "y": 88
-        },
+           "x": 49,
+           "y": 76288,
+           "Census ID": 5917054,
+           "Census subdivision name": "Juan de Fuca (Part 1)",
+           "LFLs": 3,
+           "LFLs per Sq Km": 0.003,
+           "LFLs per Pop Density": 0.143,
+           "Pop Total 2016": 4670,
+           "Pop Density per Sq Km": 21,
+           "Land Area (Sq Km)": 221,
+           "Household Income Median": "$76,288",
+           "Primary: English": 4560,
+           "Primary: French": 15,
+           "Primary: Non Official Languages": 50,
+           "% Primarily Non-official": "1.07%",
+           "Median Age": 49,
+           "Semi Detached House": 35,
+           "Single Detached House": 1715,
+           "Total houses": 1750,
+           "Aboriginal Identity": 195,
+           "Visible Minority % Total": 7.63
+		}
+	  ]
+	},
+    {
+      "id": "Juan de Fuca (Part 2)",
+      "data": [
         {
-          "x": 57,
-          "y": 60
-        },
-        {
-          "x": 94,
-          "y": 108
-        },
-        {
-          "x": 57,
-          "y": 104
-        },
-        {
-          "x": 20,
-          "y": 11
-        },
-        {
-          "x": 7,
-          "y": 98
-        },
-        {
-          "x": 93,
-          "y": 15
-        },
-        {
-          "x": 45,
-          "y": 77
-        },
-        {
-          "x": 88,
-          "y": 103
-        },
-        {
-          "x": 41,
-          "y": 103
-        },
-        {
-          "x": 82,
-          "y": 107
-        },
-        {
-          "x": 58,
-          "y": 108
-        },
-        {
-          "x": 8,
-          "y": 51
-        },
-        {
-          "x": 20,
-          "y": 22
-        },
-        {
-          "x": 92,
-          "y": 0
-        },
-        {
-          "x": 49,
-          "y": 82
-        },
-        {
-          "x": 79,
-          "y": 115
-        },
-        {
-          "x": 15,
-          "y": 27
-        },
-        {
-          "x": 15,
-          "y": 25
-        },
-        {
-          "x": 70,
-          "y": 36
-        },
-        {
-          "x": 54,
-          "y": 1
-        },
-        {
-          "x": 88,
-          "y": 41
-        },
-        {
-          "x": 52,
-          "y": 46
-        },
-        {
-          "x": 31,
-          "y": 108
-        },
-        {
-          "x": 60,
-          "y": 12
-        },
-        {
-          "x": 34,
-          "y": 33
-        },
-        {
-          "x": 97,
-          "y": 85
-        },
-        {
-          "x": 89,
-          "y": 95
-        },
-        {
-          "x": 16,
-          "y": 50
-        },
-        {
-          "x": 36,
-          "y": 58
-        },
-        {
-          "x": 22,
-          "y": 66
-        },
-        {
-          "x": 23,
-          "y": 22
-        },
-        {
-          "x": 83,
-          "y": 25
-        },
-        {
-          "x": 91,
-          "y": 89
-        },
-        {
-          "x": 44,
-          "y": 28
-        },
-        {
-          "x": 67,
-          "y": 65
-        },
-        {
-          "x": 52,
-          "y": 106
-        },
-        {
-          "x": 87,
-          "y": 8
-        },
-        {
-          "x": 17,
-          "y": 63
-        },
-        {
-          "x": 84,
-          "y": 74
-        },
-        {
-          "x": 46,
-          "y": 82
+           "x": 52,
+           "y": 61760,
+           "Census ID": 5917056,
+           "Census subdivision name": "Juan de Fuca (Part 2)",
+           "LFLs": 1,
+           "LFLs per Sq Km": 0.001,
+           "LFLs per Pop Density": 0,
+           "Pop Total 2016": 190,
+           "Pop Density per Sq Km": 0,
+           "Land Area (Sq Km)": 1268,
+           "Household Income Median": "$61,760",
+           "Primary: English": 180,
+           "Primary: French": 0,
+           "Primary: Non Official Languages": 10,
+           "% Primarily Non-official": "5.26%",
+           "Median Age": 52,
+           "Semi Detached House": 0,
+           "Single Detached House": 85,
+           "Total houses": 85,
+           "Aboriginal Identity": 0,
+           "Visible Minority % Total": 16.67
         }
       ]
     }
-  ]
+ ]
