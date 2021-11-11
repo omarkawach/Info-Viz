@@ -15,6 +15,17 @@ header {
   color: #EDF5E1;
 }
 
+header2 {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 1em;
+  background-color: #06497C;
+  color: #EDF5E1;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -29,9 +40,15 @@ code {
     monospace;
 }
 
+.dropdown {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
 .leaflet-container {
   width: 50vw;
-  height: 85vh;
+  height: 70vh;
   margin: 0 auto;
 }
 
@@ -40,9 +57,14 @@ code {
   flex-direction:row;
 }
 
+.topBottom{
+  display:flex; 
+  flex-direction:column;
+}
+
 .chart {
   width: 50vw;
-  height: 90vh;
+  height: 80vh;
   
 }
 
