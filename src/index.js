@@ -12,7 +12,8 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      value: 1,
+      prevSelected: "",
+      selected: "",
       map: null
     };
 
@@ -21,16 +22,17 @@ class App extends React.Component {
     this.onMapCreate = this.onMapCreate.bind(this);
   }
 
-  onChartElementClick(val) {
+  onChartElementClick(currSelected) {
     this.setState({
-      value: val,
+      prevSelected: this.state.selected,
+      selected: currSelected,
       map: this.state.map
     });
   }
 
   onMapCreate(map) {
     this.setState({
-      value: this.state.value,
+      selected: this.state.selected,
       map: map
     });
   }

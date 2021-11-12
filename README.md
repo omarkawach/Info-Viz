@@ -31,3 +31,4 @@ Project for CSC411 - Information Visualization at the University of Victoria
 1) Make swappable colour scheme for LFL#s and LFL/Sqkm
 2) Add LFL features
 3) Info panel based on Chart.js onClick
+   - Discuss what information we want to display here
