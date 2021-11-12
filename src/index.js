@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import Title from "./components/Title.js";
 import Chart from "./components/Chart.js";
 import Map from "./components/Map.js";
+import Footer from "./components/Footer.js";
 
 import "./index.css";
 
@@ -45,6 +46,7 @@ class App extends React.Component {
           <Chart onChartElementClick={this.onChartElementClick} />
           <Map state={this.state} onMapCreate={this.onMapCreate}/>
         </div>
+        <Footer />
       </div>
     );
   }

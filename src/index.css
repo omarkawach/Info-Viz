@@ -15,7 +15,7 @@ header {
   color: #edf5e1;
 }
 
-header2 {
+footer {
   box-sizing: border-box;
   width: 100%;
   display: flex;
@@ -23,6 +23,13 @@ header2 {
   align-items: baseline;
   padding: 1em;
   background-color: #06497c;
+  color: #edf5e1;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+a {
   color: #edf5e1;
 }
 
