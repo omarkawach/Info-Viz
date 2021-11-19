@@ -6,6 +6,8 @@ import Chart from "./components/Chart.js";
 import Map from "./components/Map.js";
 import Dropdown from "./components/Dropdown.js";
 import Dropdown2 from "./components/Dropdown2.js";
+import Footer from "./components/Footer.js";
+
 
 import "./index.css";
 
@@ -14,6 +16,7 @@ class App extends React.Component {
     super(props);
 
     this.state = {
+
       value: 1,
       map: null,
       chart: 1,
@@ -29,7 +32,7 @@ class App extends React.Component {
     this.onDropdown2Selection = this.onDropdown2Selection.bind(this);
   }
 
-  onChartElementClick(val) {
+  onChartElementClick(currSelected) {
     this.setState({
       value: val,
       map: this.state.map,
@@ -79,6 +82,7 @@ class App extends React.Component {
             </div>
             <Map state={this.state} onMapCreate={this.onMapCreate}/>
         </div>
+        <Footer />
       </div>
     );
   }
