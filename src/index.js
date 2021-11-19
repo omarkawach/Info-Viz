@@ -34,7 +34,7 @@ class App extends React.Component {
 
   onChartElementClick(currSelected) {
     this.setState({
-      value: val,
+      value:currSelected,
       map: this.state.map,
       chart: this.state.chart,
       legend: this.state.legend
