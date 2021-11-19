@@ -4,6 +4,8 @@ import ReactDOM from "react-dom";
 import Title from "./components/Title.js";
 import Chart from "./components/Chart.js";
 import Map from "./components/Map.js";
+import Dropdown from "./components/Dropdown.js";
+import Dropdown2 from "./components/Dropdown2.js";
 
 import "./index.css";
 
@@ -13,25 +15,55 @@ class App extends React.Component {
 
     this.state = {
       value: 1,
-      map: null
+      map: null,
+      chart: 1,
+      legend: 1
     };
 
     this.onChartElementClick = this.onChartElementClick.bind(this);
 
     this.onMapCreate = this.onMapCreate.bind(this);
+
+    this.onDropdownSelection = this.onDropdownSelection.bind(this);
+    
+    this.onDropdown2Selection = this.onDropdown2Selection.bind(this);
   }
 
   onChartElementClick(val) {
     this.setState({
       value: val,
-      map: this.state.map
+      map: this.state.map,
+      chart: this.state.chart,
+      legend: this.state.legend
     });
   }
 
   onMapCreate(map) {
     this.setState({
       value: this.state.value,
-      map: map
+      map: map,
+      chart: this.state.chart,
+      legend: this.state.legend
+    });
+  }
+
+  onDropdownSelection(selected) {
+      debugger;
+    this.setState({
+      value: this.state.value,
+      map: this.state.map,
+      chart: selected,
+      legend: this.state.coloured
+    });
+  }
+
+  onDropdown2Selection(coloured) {
+      debugger;
+    this.setState({
+      value: this.state.value,
+      map: this.state.map,
+      chart: this.state.chart,
+      legend: coloured
     });
   }
 
@@ -40,8 +72,12 @@ class App extends React.Component {
       <div className="app">
         <Title />
         <div className="sideBySide">
-          <Chart onChartElementClick={this.onChartElementClick} />
-          <Map state={this.state} onMapCreate={this.onMapCreate}/>
+            <div className="topBottom">
+                <Dropdown onDropdownSelection={this.onDropdownSelection} />
+                <Dropdown2 onDropdown2Selection={this.onDropdown2Selection} />
+                <Chart state={this.state} onChartElementClick={this.onChartElementClick} />
+            </div>
+            <Map state={this.state} onMapCreate={this.onMapCreate}/>
         </div>
       </div>
     );

@@ -5,28 +5,28 @@ import Select from 'react-select';
 // https://appdividend.com/2018/10/19/react-dropdown-select-example-tutorial/
 // https://stackoverflow.com/questions/43495696/how-to-set-a-default-value-in-react-select
 
-const chart = [
-  { label: "Compare: Age & Income", selected: 1 },
-  { label: "Compare: Houses & Income", selected: 2 },
-  { label: "Compare: Houses & Population Density", selected: 3 },
-  { label: "Compare: LFL Density & Population Density", selected: 4 },
-  { label: "Compare: % Visible Minorities & Non-official Languages", selected: 5 }
+const legend = [
+  { label: "Colour: Total # LFLs", coloured: 1 },
+  { label: "Colour: LFLs/SqKm", coloured: 2 },
 ];
 
-export default class Dropdown extends React.Component {
+
+
+
+export default class Dropdown2 extends React.Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            value: chart[0]
+            value: legend[0]
         }
     }
     
-    setSelected(ev) {
+    setColoured(ev) {
         debugger;
-        this.props.onDropdownSelection(ev.selected); 
+        this.props.onDropdown2Selection(ev.coloured); 
         this.setState({
-            value: chart[ev.selected-1] 
+            value: legend[ev.coloured-1] 
         })
         debugger;
     }
@@ -36,11 +36,11 @@ export default class Dropdown extends React.Component {
             <div className="dropdown">
                 <div style={{width: '50%'}}>
                 <Select
-                    options={ chart }
+                    options={ legend }
                     autosize={ false }
                     value={ this.state.value }
                     getOptionValue={(option) => option.label} 
-                    onChange={this.setSelected.bind(this)}
+                    onChange={this.setColoured.bind(this)}
                 />
                 </div>
           </div>
