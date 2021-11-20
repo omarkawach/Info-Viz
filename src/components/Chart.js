@@ -36,6 +36,8 @@ export default class Chart extends React.Component {
         case 2:
             colors = colors_density;
             break;
+        default:
+            break;
     }
     
     // switch for annotations, based on selection given from map
@@ -242,6 +244,8 @@ export default class Chart extends React.Component {
             yFormat = ">.2%";
             xScale  = { type: 'linear', min: 0, max: '.25' };
             break;   
+        default:
+            break;
     }
     return (
         <div className="chart">
@@ -260,7 +264,6 @@ export default class Chart extends React.Component {
                 axisTop={null}
                 axisRight={null}
                 axisBottom={ axisBottom }
-                onClick={(data) => { this.props.onChartElementClick(2); }}
                 axisLeft={ axisLeft }
                 markers={ markers }
                 motionConfig={{

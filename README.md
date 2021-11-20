@@ -8,6 +8,7 @@ Project for CSC411 - Information Visualization at the University of Victoria
    Make swappable colour scheme for LFL#s and LFL/Sqkm
    Implemented variable switcher in Chart.js
    Adjusted transitions in motionConfig
+   Add LFL features
 
 ## TODO
 3) Add annotations on map given chart click
@@ -17,13 +18,9 @@ Project for CSC411 - Information Visualization at the University of Victoria
    - set value for chart based based on map click
 6) Center map properly
 7)  Styling
-8)  When I do ctrl + s in VS code, the React app re-renders 
-    - Confirm if issue still occurs after ```npm build```
-
-## BONUS TODO
-1) Add LFL features
+8)  Refactoring and documentation
 
 TRASHED
-3) Info panel based on Chart.js onClick
-4) Highlight polygon on chart click
-5) notify map of chart element selection using context and event listeners
+1) Info panel based on Chart.js onClick
+2) Highlight polygon on chart click
+3) notify map of chart element selection using context and event listeners

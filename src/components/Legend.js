@@ -8,7 +8,7 @@ class Legend extends React.Component {
       onAdd: (map) => {
         const panelDiv = L.DomUtil.create("div", "info");
 
-         panelDiv.innerHTML = `<h2><span>Waiting on chart element selection...</span>&nbsp;</h2>`;
+         panelDiv.innerHTML = `<h2><span>Waiting for Map Feature Selection...</span>&nbsp;</h2>`;
 
         return panelDiv;
       },

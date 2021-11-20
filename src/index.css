@@ -55,7 +55,7 @@ code {
 
 .leaflet-container {
   width: 50vw;
-  height: 70vh;
+  height: 80vh;
   margin: 0 auto;
 }
 
@@ -84,9 +84,10 @@ code {
   line-height: 18px;
   color: #555;
   width: 400px;
-  height: 200px;
+  height: 250px;
+  overflow: auto;
 }
 
-.info h4 {
+.info h3 {
   color: #777;
 }
