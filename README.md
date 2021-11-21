@@ -9,16 +9,17 @@ Project for CSC411 - Information Visualization at the University of Victoria
    Implemented variable switcher in Chart.js
    Adjusted transitions in motionConfig
    Add LFL features
+   colour legend
+   Center map properly
+   Update data JSON to have demographics then all GeoJSON markers for map
+   Leaflet interactivity, 
+   Restyled and compacted infor panel JSON data
+   Add annotations on map given chart click
 
 ## TODO
-3) Add annotations on map given chart click
-4) Update data JSON to have demographics then all GeoJSON markers for map
-5) Leaflet interactivity, 
-   - Load LFL locations into map on chart click
-   - set value for chart based based on map click
-6) Center map properly
-7)  Styling
-8)  Refactoring and documentation
+7) Styling
+8) Refactoring and documentation
+9) Script for video
 
 TRASHED
 1) Info panel based on Chart.js onClick

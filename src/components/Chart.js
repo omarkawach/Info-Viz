@@ -1,8 +1,6 @@
 import React from "react";
 import { ResponsiveScatterPlot } from "@nivo/scatterplot";
-import { Dropdown, Option } from "./Dropdown";
 
-import data0 from "../data/data.json";
 import data1 from "../data/data1.json";
 import data2 from "../data/data2.json";
 import data3 from "../data/data3.json";
@@ -18,13 +16,15 @@ let colors_density = ['#1515FF','#D3D3FF','#A2A2FF','#B5B5FF','#E9E9FF','#E9E9FF
 export default class Chart extends React.Component {
   render() {
     var data;
-    var markers = [];
-    var axisBottom = {};
-    var axisLeft ={};
-    var xFormat = " >-$,.2f"
-    var yFormat = " >-$,.2f"
-    var xScale  = { type: 'linear', min: 0, max: 'auto' }
-    var colors = colors_number;
+    var markers     = [];
+    var axisBottom  = {};
+    var axisLeft    = {};
+    var xFormat     = " >-$,.2f"
+    var yFormat     = " >-$,.2f"
+    var xScale      = { type: 'linear', min: 0, max: 'auto' }
+    var colors      = colors_number;
+    var featureNum  = 0;
+    var featureName = "";
     var annotations = [];
     
     
@@ -40,10 +40,25 @@ export default class Chart extends React.Component {
             break;
     }
     
-    // switch for annotations, based on selection given from map
+    // Annotations
     // https://nivo.rocks/storybook/?path=/story/swarmplot--using-annotations
     
-    // switch(this.props.value.map) {}
+    
+    if(this.props.state.selectedFeature != null) {
+        featureNum = this.props.state.infoPanel.findIndex(x => x.id === this.props.state.selectedFeature.feature.properties["Census subdivision name"]);
+        featureName = this.props.state.selectedFeature.feature.properties["Census subdivision name"];
+        annotations=[
+            {
+                type: 'circle',
+                match: { index: featureNum },
+                noteX: 40,
+                noteY: 40,
+                offset: 12,
+                note: featureName,
+            }
+        ]
+    }
+
     
     // switch for charts
     switch(this.props.state.chart) {
@@ -266,6 +281,7 @@ export default class Chart extends React.Component {
                 axisBottom={ axisBottom }
                 axisLeft={ axisLeft }
                 markers={ markers }
+                annotations = { annotations }
                 motionConfig={{
                         mass: 87,
                         tension: 427,

@@ -55,7 +55,6 @@ class App extends React.Component {
   }
 
   onDropdownSelection(selected) {
-      debugger;
     this.setState({
       value: this.state.value,
       map: this.state.map,
@@ -67,7 +66,6 @@ class App extends React.Component {
   }
 
   onDropdown2Selection(coloured) {
-      debugger;
     this.setState({
       value: this.state.value,
       map: this.state.map,
@@ -85,7 +83,7 @@ class App extends React.Component {
         <div className="sideBySide">
             <div className="topBottom">
                 <Dropdown onDropdownSelection={this.onDropdownSelection} />
-                <Dropdown2 onDropdown2Selection={this.onDropdown2Selection} />
+                <Dropdown2 state={this.state} onDropdown2Selection={this.onDropdown2Selection} />
                 <Chart state={this.state} onChartElementClick={this.onChartElementClick} />
             </div>
             <Map state={this.state} onMapCreate={this.onMapCreate} onMapFeatureClick={this.onMapFeatureClick}/>

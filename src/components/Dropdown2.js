@@ -1,5 +1,7 @@
 import React from 'react';
 import Select from 'react-select';
+import Density from "./Density.png";
+
 
 // hat-tip:
 // https://appdividend.com/2018/10/19/react-dropdown-select-example-tutorial/
@@ -23,18 +25,27 @@ export default class Dropdown2 extends React.Component {
     }
     
     setColoured(ev) {
-        debugger;
         this.props.onDropdown2Selection(ev.coloured); 
         this.setState({
             value: legend[ev.coloured-1] 
         })
-        debugger;
     }
     
+    
+
     render() {
+        var legendText1 = "";
+        var legendText2 = "";
+        
+        if (this.props.state.legend === 1){
+            legendText1 = "0 LFLs" ;
+            legendText2 = "200 LFLs";}
+        else {
+            legendText1 = "0.0 LFLs/Km²";
+            legendText2 = "10.0 LFLs/Km²";}
     return (
             <div className="dropdown">
-                <div style={{width: '50%'}}>
+                <div style={{width: '35%'}}>
                 <Select
                     options={ legend }
                     autosize={ false }
@@ -42,6 +53,7 @@ export default class Dropdown2 extends React.Component {
                     getOptionValue={(option) => option.label} 
                     onChange={this.setColoured.bind(this)}
                 />
+                { legendText1 } <img src = {Density} height ='32px' alt='[Density Bar]'/> {legendText2}
                 </div>
           </div>
         )

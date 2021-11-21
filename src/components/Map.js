@@ -100,7 +100,7 @@ export default class Map extends React.Component {
     }
 
     let info = `<div class='info leaflet-control'>`;
-
+    
     let index = this.props.state.infoPanel.findIndex(x => x.id === target.feature.properties["Census subdivision name"]);
 
     let name = this.props.state.infoPanel[index].id
@@ -130,7 +130,7 @@ export default class Map extends React.Component {
       <MapContainer
         center={[48.4284, -123.7656]}
         zoom={9}
-        scrollWheelZoom={false}
+        scrollWheelZoom={true}
         whenCreated={this.setMap.bind(this)}
       >
         <LayersControl position="topright">
