@@ -21,7 +21,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: baseline;
-  padding: 1em;
+  padding: 1.4em;
   background-color: #06497c;
   color: #edf5e1;
   position: fixed;
@@ -47,16 +47,15 @@ code {
     monospace;
 }
 
-.dropdown {
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-}
-
 .leaflet-container {
   width: 50vw;
-  height: 80vh;
+  height: 85vh;
   margin: 0 auto;
+}
+
+.chart {
+  width: 55vw;
+  height: 80vh;
 }
 
 .sideBySide {
@@ -69,9 +68,18 @@ code {
   flex-direction: column;
 }
 
-.chart {
-  width: 50vw;
-  height: 80vh;
+.dropdown {
+  width: 50%;
+  float: left;
+  /* Top right bottom left */
+  padding: 10px 20px 0px 20px;
+}
+
+.dropdown-legend {
+  padding: 10px 0px 0px 0px;
+  display: flex;
+  align-items:center;
+  justify-content: center
 }
 
 .info {

@@ -23,18 +23,16 @@ export default class Dropdown extends React.Component {
     }
     
     setSelected(ev) {
-        debugger;
         this.props.onDropdownSelection(ev.selected); 
         this.setState({
             value: chart[ev.selected-1] 
         })
-        debugger;
     }
     
     render() {
     return (
             <div className="dropdown">
-                <div style={{width: '50%'}}>
+                <div>
                 <Select
                     options={ chart }
                     autosize={ false }

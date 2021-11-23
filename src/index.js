@@ -9,7 +9,6 @@ import Footer from "./components/Footer.js";
 import "./index.css";
 import info from "./data/data.json";
 
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -20,7 +19,7 @@ class App extends React.Component {
       selectedFeature: null,
       chart: 1,
       legend: 1,
-      infoPanel: info
+      infoPanel: info,
     };
 
     this.onMapCreate = this.onMapCreate.bind(this);
@@ -28,7 +27,7 @@ class App extends React.Component {
     this.onMapFeatureClick = this.onMapFeatureClick.bind(this);
 
     this.onDropdownSelection = this.onDropdownSelection.bind(this);
-    
+
     this.onDropdown2Selection = this.onDropdown2Selection.bind(this);
   }
 
@@ -39,7 +38,7 @@ class App extends React.Component {
       selectedFeature: this.state.selectedFeature,
       chart: this.state.chart,
       legend: this.state.legend,
-      infoPanel: this.state.infoPanel
+      infoPanel: this.state.infoPanel,
     });
   }
 
@@ -50,7 +49,7 @@ class App extends React.Component {
       selectedFeature: selected,
       chart: this.state.chart,
       legend: this.state.legend,
-      infoPanel: this.state.infoPanel
+      infoPanel: this.state.infoPanel,
     });
   }
 
@@ -61,7 +60,7 @@ class App extends React.Component {
       selectedFeature: this.state.selectedFeature,
       chart: selected,
       legend: this.state.coloured,
-      infoPanel: this.state.infoPanel
+      infoPanel: this.state.infoPanel,
     });
   }
 
@@ -72,7 +71,7 @@ class App extends React.Component {
       selectedFeature: this.state.selectedFeature,
       chart: this.state.chart,
       legend: coloured,
-      infoPanel: this.state.infoPanel
+      infoPanel: this.state.infoPanel,
     });
   }
 
@@ -81,12 +80,25 @@ class App extends React.Component {
       <div className="app">
         <Title />
         <div className="sideBySide">
-            <div className="topBottom">
-                <Dropdown onDropdownSelection={this.onDropdownSelection} />
-                <Dropdown2 state={this.state} onDropdown2Selection={this.onDropdown2Selection} />
-                <Chart state={this.state} onChartElementClick={this.onChartElementClick} />
+          <div className="topBottom">
+            <div>
+              <Dropdown onDropdownSelection={this.onDropdownSelection} />
+              <Dropdown2
+                state={this.state}
+                onDropdown2Selection={this.onDropdown2Selection}
+              />
             </div>
-            <Map state={this.state} onMapCreate={this.onMapCreate} onMapFeatureClick={this.onMapFeatureClick}/>
+
+            <Chart
+              state={this.state}
+              onChartElementClick={this.onChartElementClick}
+            />
+          </div>
+          <Map
+            state={this.state}
+            onMapCreate={this.onMapCreate}
+            onMapFeatureClick={this.onMapFeatureClick}
+          />
         </div>
         <Footer />
       </div>

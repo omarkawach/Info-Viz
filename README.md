@@ -15,11 +15,11 @@ Project for CSC411 - Information Visualization at the University of Victoria
    Leaflet interactivity, 
    Restyled and compacted infor panel JSON data
    Add annotations on map given chart click
+   Styling
 
 ## TODO
-7) Styling
-8) Refactoring and documentation
-9) Script for video
+1) Refactoring and documentation
+2) Script for video
 
 TRASHED
 1) Info panel based on Chart.js onClick
