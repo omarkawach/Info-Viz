@@ -24,7 +24,7 @@ footer {
   padding: 1.4em;
   background-color: #06497c;
   color: #edf5e1;
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
 }
@@ -49,7 +49,7 @@ code {
 
 .leaflet-container {
   width: 50vw;
-  height: 85vh;
+  height: 88vh;
   margin: 0 auto;
 }
 
