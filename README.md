@@ -39,7 +39,7 @@ Refactor and document
 
 [React Select](https://react-select.com/home)
 
-[React]((https://reactjs.org/))
+[React](https://reactjs.org/)
 
 [Nivo](https://nivo.rocks/)
 
